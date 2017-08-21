@@ -1,0 +1,102 @@
+2017-08-21 13:09:57,582 [main] INFO  PropertiesManager  - --- Contents in Configuration Properties ---
+2017-08-21 13:09:57,582 [main] INFO  PropertiesManager  - ErrorNotifyToSender=false
+2017-08-21 13:09:57,584 [main] INFO  PropertiesManager  - MailFrom=
+2017-08-21 13:09:57,586 [main] INFO  PropertiesManager  - SMTPServer=mail.forcs.com
+2017-08-21 13:09:57,588 [main] INFO  PropertiesManager  - SMTPServerPort=25
+2017-08-21 13:09:57,590 [main] INFO  PropertiesManager  - SMTPUserID=
+2017-08-21 13:09:57,591 [main] INFO  PropertiesManager  - SMTPUserPassword=
+2017-08-21 13:09:57,592 [main] INFO  PropertiesManager  - EnableSSL=false
+2017-08-21 13:09:57,596 [main] INFO  PropertiesManager  - PrefixSubjectMessage=
+2017-08-21 13:09:57,596 [main] INFO  PropertiesManager  - RepositoryFileRootPath=%SCH_HOME%/Repository/
+2017-08-21 13:09:57,598 [main] INFO  PropertiesManager  - RepositoryFileDeleteTime=0
+2017-08-21 13:09:57,600 [main] INFO  PropertiesManager  - SchedulingInfoFilePath=%SCH_HOME%/ScheduledTask
+2017-08-21 13:09:57,601 [main] INFO  PropertiesManager  - TempRepositoryFilePath=%SCH_HOME%/TempRepository
+2017-08-21 13:09:57,602 [main] INFO  PropertiesManager  - ExternalProgramFilePath=%SCH_HOME%/External
+2017-08-21 13:09:57,604 [main] INFO  PropertiesManager  - ViewerType=ActiveX
+2017-08-21 13:09:57,605 [main] INFO  PropertiesManager  - ViewerConcurrentCount=n
+2017-08-21 13:09:57,607 [main] INFO  PropertiesManager  - TaskHoliday=false
+2017-08-21 13:09:57,608 [main] INFO  PropertiesManager  - --------------------------------------------
+2017-08-21 13:09:57,610 [main] WARN  PropertiesManager  - [Key : ViewerDebug] Configuration value doesn't exist. Default value(false) will be used.
+2017-08-21 13:09:57,613 [main] WARN  PropertiesManager  - [Key : SMTPUserID_encrypted] Configuration value doesn't exist. Default value(null) will be used.
+2017-08-21 13:09:57,616 [main] WARN  PropertiesManager  - [Key : SMTPUserPassword_encrypted] Configuration value doesn't exist. Default value(null) will be used.
+2017-08-21 13:09:57,618 [main] WARN  PropertiesManager  - [Key : ViewerTimeout] Configuration value doesn't exist. Default value(0) will be used.
+2017-08-21 13:09:57,619 [main] WARN  PropertiesManager  - [Key : MailSendRetryCount] Configuration value doesn't exist. Default value(0) will be used.
+2017-08-21 13:09:57,621 [main] WARN  PropertiesManager  - [Key : MailSendRetryPeriodTime] Configuration value doesn't exist. Default value(30) will be used.
+2017-08-21 13:09:57,623 [main] WARN  PropertiesManager  - [Key : SMTPConnectionTimeout] Configuration value doesn't exist. Default value(0) will be used.
+2017-08-21 13:09:57,625 [main] WARN  PropertiesManager  - [Key : SMTPSendTimeout] Configuration value doesn't exist. Default value(0) will be used.
+2017-08-21 13:09:57,628 [main] WARN  PropertiesManager  - [Key : IdleTime.Classname] Configuration value doesn't exist. Default value() will be used.
+2017-08-21 13:09:57,630 [main] WARN  PropertiesManager  - [Key : IdleTime.Overtime] Configuration value doesn't exist. Default value(0) will be used.
+2017-08-21 13:09:57,633 [main] WARN  PropertiesManager  - [Key : html5SVGServerURL] Configuration value doesn't exist. Default value() will be used.
+2017-08-21 13:09:57,634 [main] DEBUG PropertiesManager  - SVGViewer repository clean service init.
+2017-08-21 13:09:57,636 [main] DEBUG PropertiesManager  - SVGViewerRepositoryClean init...
+2017-08-21 13:09:57,640 [main] INFO  XML-License-Loader  - [.xml] loader
+2017-08-21 13:09:57,642 [main] DEBUG XML-Parser-Configurator  - try to get DOM10_SUN parser factory...
+2017-08-21 13:09:57,643 [main] DEBUG XML-Parser-Configurator  - Class.forName(com.sun.xml.parser.DocumentBuilderFactoryImpl).newInstance()
+2017-08-21 13:09:57,741 [main] INFO  OZScheduler  - *****************************************************
+2017-08-21 13:09:57,742 [main] INFO  OZScheduler  - * Scheduler Server[Ver. : 7.0.0101.20170524 14:00.66] is started. *
+2017-08-21 13:09:57,744 [main] INFO  OZScheduler  - * Java Version          : 1.5.0_19. *
+2017-08-21 13:09:57,745 [main] INFO  OZScheduler  - ***** All Right Reserved  [FORCS Co. Ltd.] **
+2017-08-21 13:09:57,747 [main] INFO  OZScheduler  - * License expiration date : 2017-11-15
+2017-08-21 13:09:57,748 [main] INFO  OZScheduler  - *****************************************************
+2017-08-21 13:09:57,782 [main] INFO  TaskInfoManager  - Total 0/0 file(s) are succefully loaded in '[S]http%3A%2F%2F127.0.0.1%3A8080%2Foz70%2Fserver'...
+2017-08-21 13:09:57,788 [Thread-0] INFO  SchedulerTCPDaemon  - Scheduler TCP Daemon is ready up.
+2017-08-21 13:10:13,593 [Handler 1] INFO  Scheduler-TCP Handler  - client IP:[ 127.0.0.1] A handler is started. Active handler count is 1
+2017-08-21 13:10:13,597 [Handler 1] DEBUG Scheduler-TCP Handler  - SchedulerMessage [version : 6551] [className : oz.scheduler.cp.message.OZSCHDRequestTaskHoliday] received
+2017-08-21 13:10:13,598 [Handler 1] DEBUG OZSCHDRequestTaskHoliday  - Reading Message is successfully completed
+2017-08-21 13:10:13,599 [Handler 1] DEBUG OZSCHDRequestTaskHoliday  - Function Type [62 : GET_TASKHOLIDAYGROUP]
+2017-08-21 13:10:13,600 [Handler 1] ERROR OZSCHDRequestTaskHoliday  - Exception occured during fetching
+oz.scheduler.SchedulerException: TaskHoliday function property is false.
+	at oz.scheduler.cp.message.OZSCHDRequestTaskHoliday.fetchMessage(DashoA12957:180)
+	at oz.scheduler.cp.TCPMessageHandler.a(DashoA12957:97)
+	at oz.scheduler.cp.TCPMessageHandler.run(DashoA12957:45)
+	at java.lang.Thread.run(Unknown Source)
+2017-08-21 13:10:13,601 [Handler 1] ERROR Scheduler-TCP Handler  - Send ExceptionMessage because Exception Occured in fetching
+oz.scheduler.SchedulerException: TaskHoliday function property is false.
+	at oz.scheduler.cp.message.OZSCHDRequestTaskHoliday.fetchMessage(DashoA12957:224)
+	at oz.scheduler.cp.TCPMessageHandler.a(DashoA12957:97)
+	at oz.scheduler.cp.TCPMessageHandler.run(DashoA12957:45)
+	at java.lang.Thread.run(Unknown Source)
+2017-08-21 13:10:13,604 [Handler 1] INFO  Scheduler-TCP Handler  - OZSCHDException sending complete
+2017-08-21 13:10:13,605 [Handler 1] DEBUG Scheduler-TCP Handler  - fectching is completed & response is also sended
+2017-08-21 13:10:15,867 [Handler 2] INFO  Scheduler-TCP Handler  - client IP:[ 127.0.0.1] A handler is started. Active handler count is 1
+2017-08-21 13:10:15,868 [Handler 2] DEBUG Scheduler-TCP Handler  - SchedulerMessage [version : 6551] [className : oz.scheduler.cp.message.OZSCHDRequestProperty] received
+2017-08-21 13:10:15,869 [Handler 2] DEBUG OZSCHDRequestProperty  - Reading Message is successfully completed
+2017-08-21 13:10:15,870 [Handler 2] DEBUG OZSCHDRequestProperty  - Function Type [17 : GET_SCHEDULER_CONFIG]
+2017-08-21 13:10:15,871 [Handler 2] INFO  OutterProcAPI  - Scheduler server configuration is returned.
+2017-08-21 13:10:15,872 [Handler 2] DEBUG Scheduler-TCP Handler  - fectching is completed & response is also sended
+2017-08-21 13:10:16,015 [Handler 3] INFO  Scheduler-TCP Handler  - client IP:[ 127.0.0.1] A handler is started. Active handler count is 1
+2017-08-21 13:10:16,018 [Handler 3] DEBUG Scheduler-TCP Handler  - SchedulerMessage [version : 6551] [className : oz.scheduler.cp.message.OZSCHDRequestTaskInfo] received
+2017-08-21 13:10:16,018 [Handler 3] DEBUG OZSCHDRequestTaskInfo  - Reading Message is successfully completed
+2017-08-21 13:10:16,020 [Handler 3] DEBUG OZSCHDRequestTaskInfo  - Function Type [94 : TASK_ITEM_IN_GROUP]
+2017-08-21 13:10:16,021 [Handler 3] INFO  TaskInfoManager  - 0 scheduled task(s) are returned.
+2017-08-21 13:10:16,022 [Handler 3] DEBUG Scheduler-TCP Handler  - fectching is completed & response is also sended
+2017-08-21 13:10:21,491 [Handler 4] INFO  Scheduler-TCP Handler  - client IP:[ 127.0.0.1] A handler is started. Active handler count is 1
+2017-08-21 13:10:21,492 [Handler 4] DEBUG Scheduler-TCP Handler  - SchedulerMessage [version : 6551] [className : oz.scheduler.cp.message.OZSCHDRequestTaskInfo] received
+2017-08-21 13:10:21,494 [Handler 4] DEBUG OZSCHDRequestTaskInfo  - Reading Message is successfully completed
+2017-08-21 13:10:21,494 [Handler 4] DEBUG OZSCHDRequestTaskInfo  - Function Type [38 : GET_ODI_LIST]
+2017-08-21 13:10:21,520 [Handler 4] DEBUG Scheduler-TCP Handler  - fectching is completed & response is also sended
+2017-08-21 13:10:21,531 [Handler 5] INFO  Scheduler-TCP Handler  - client IP:[ 127.0.0.1] A handler is started. Active handler count is 1
+2017-08-21 13:10:21,532 [Handler 5] DEBUG Scheduler-TCP Handler  - SchedulerMessage [version : 6551] [className : oz.scheduler.cp.message.OZSCHDRequestTaskInfo] received
+2017-08-21 13:10:21,533 [Handler 5] DEBUG OZSCHDRequestTaskInfo  - Reading Message is successfully completed
+2017-08-21 13:10:21,533 [Handler 5] DEBUG OZSCHDRequestTaskInfo  - Function Type [41 : GET_DEFAULT_PARAM]
+2017-08-21 13:10:21,534 [Handler 5] DEBUG Scheduler-TCP Handler  - fectching is completed & response is also sended
+2017-08-21 13:10:45,256 [Handler 6] INFO  Scheduler-TCP Handler  - client IP:[ 127.0.0.1] A handler is started. Active handler count is 1
+2017-08-21 13:10:45,257 [Handler 6] DEBUG Scheduler-TCP Handler  - SchedulerMessage [version : 6551] [className : oz.scheduler.cp.message.OZSCHDRequestTaskInfo] received
+2017-08-21 13:10:45,258 [Handler 6] DEBUG OZSCHDRequestTaskInfo  - Reading Message is successfully completed
+2017-08-21 13:10:45,259 [Handler 6] DEBUG OZSCHDRequestTaskInfo  - Function Type [23 : SET_TASKINFO]
+2017-08-21 13:10:45,271 [Handler 6] INFO  OutterProcAPI  - [Task ID : Sample_Calendar_170821131045270_288645271.ozs] Scheduled task is newly created.
+2017-08-21 13:10:45,271 [Thread-1] DEBUG PeriodicallyCheck  - TaskExcute[Sample_Calendar_170821131045270_288645271.ozs] is started.
+2017-08-21 13:10:45,272 [Handler 6] DEBUG Scheduler-TCP Handler  - fectching is completed & response is also sended
+2017-08-21 13:10:45,283 [Handler 7] INFO  Scheduler-TCP Handler  - client IP:[ 127.0.0.1] A handler is started. Active handler count is 1
+2017-08-21 13:10:45,283 [Handler 7] DEBUG Scheduler-TCP Handler  - SchedulerMessage [version : 6551] [className : oz.scheduler.cp.message.OZSCHDRequestTaskInfo] received
+2017-08-21 13:10:45,283 [Handler 7] DEBUG OZSCHDRequestTaskInfo  - Reading Message is successfully completed
+2017-08-21 13:10:45,284 [Handler 7] DEBUG OZSCHDRequestTaskInfo  - Function Type [94 : TASK_ITEM_IN_GROUP]
+2017-08-21 13:10:45,284 [Handler 7] INFO  TaskInfoManager  - 1 scheduled task(s) are returned.
+2017-08-21 13:10:45,285 [Handler 7] DEBUG Scheduler-TCP Handler  - fectching is completed & response is also sended
+2017-08-21 13:10:45,364 [Task : Sample_Calendar_170821131045270_288645271.ozs] DEBUG FormResultSaveThread  - TaskExecute Start TASK_DIRECT...
+2017-08-21 13:10:45,365 [Task : Sample_Calendar_170821131045270_288645271.ozs] INFO  FormResultSaveThread  - [Task : Sample_Calendar_170821131045270_288645271.ozs] ** Task is started.
+2017-08-21 13:10:45,391 [Thread-7] DEBUG FormResultSaveThread  - Time out check is false.
+2017-08-21 13:10:45,686 [Task : Sample_Calendar_170821131045270_288645271.ozs] INFO  FormResultSaveThread  - Making Export files was successful.
+2017-08-21 13:10:45,688 [Task : Sample_Calendar_170821131045270_288645271.ozs] DEBUG FormResultSaveThread  - Remove parameter file :C:\Program Files (x86)\Apache Software Foundation\ozsch70\TempRepository\Sample_Calendar_170821131045270_288645271.param
+2017-08-21 13:10:45,689 [Task : Sample_Calendar_170821131045270_288645271.ozs] INFO  FormResultSaveThread  - test1.pdf is replaced to Scheduler Repository
+2017-08-21 13:10:45,695 [Task : Sample_Calendar_170821131045270_288645271.ozs] INFO  FormResultSaveThread  - %% Because Task [Sample_Calendar_170821131045270_288645271.ozs] has no more scheduled running time, task is deleted. %%
